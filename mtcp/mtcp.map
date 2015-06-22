@@ -1,0 +1,1388 @@
+Archive member included because of file (symbol)
+
+prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/../lib/gcc/arm-linux-androideabi/4.4.3/armv7-a/libgcc.a(linux-atomic.o)
+                              out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o (__sync_bool_compare_and_swap_4)
+
+Allocating common symbols
+Common symbol       size              file
+
+mtcp_ckpt_newname   0x1001            out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+mtcp_saved_working_directory
+                    0x1001            out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+mtcp_libc_area      0x418             out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+mtcp_restore_argv   0xcc              out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+mtcp_restore_envp   0xcc              out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+mtcp_restore_begin  0x4               out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+mtcp_restore_cmd_file
+                    0x4               out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+mtcp_restore_end    0x4               out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+mtcp_sigaction_entry
+                    0x4               out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+mtcp_sys_errno      0x4               out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safemmap.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/clone-arm.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/clone-arm.o
+ .ARM.extab     0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/clone-arm.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/clone-arm.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/libc-do-syscall-arm-eabi.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/libc-do-syscall-arm-eabi.o
+ .ARM.extab     0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/libc-do-syscall-arm-eabi.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/libc-do-syscall-arm-eabi.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.makedev
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.sigismember
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.sigdelset
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.fegetround
+                0x00000000        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.fegetround
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.fesetround
+                0x00000000        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.fesetround
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_sys_strlen
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_sys_strcpy
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.sigandset
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcpHookPreCheckpoint
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcpHookPostCheckpoint
+                0x00000000        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcpHookPostCheckpoint
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcpHookRestart
+                0x00000000        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcpHookRestart
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_init_dmtcp_info
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_set_callbacks
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_set_dmtcp_callbacks
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_dump_tls
+                0x00000000        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_dump_tls
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_fill_in_pthread_id
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_safe_malloc
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_safe_free
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_is_zero_page
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_get_next_page_range
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_abort
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_readmapsline
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.growstack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.growstackrlimit
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.is_thread_locked
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_put_thread_on_freelist
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.restore_heap
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.restore_tls_state
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.lock_threads
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.unlk_threads
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_kill_ckpthread
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.getcurrenthread
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_threadiszombie
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.set_tid_address
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_get_thread_from_freelist
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_empty_threads_freelist
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.sigfillset
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.save_sig_state
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.save_tls_state
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.wait_for_all_restored
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.renametempoverperm
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.stopthisthread
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_no
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_ok
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_get_libc_symbol
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.threadisdead
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_thread_return
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_remove_duplicate_thread_descriptors
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.setupthread
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_thread_start
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.threadcloned
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_process_pthread_join
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.test_and_prepare_for_forked_ckpt
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.setup_clone_entry
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_prepare_for_clone
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.__pthread_clone
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.update_checkpoint_filename
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.setup_sig_handler
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_init
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.save_sig_handlers
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.restore_sig_handlers
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.tcgetattr
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.save_term_settings
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.tcsetattr
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.test_use_compression
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.open_ckpt_to_write
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.open_ckpt_to_write_gz
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.safe_tcsetattr
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.restore_term_settings
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.writememoryarea
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.restore_sig_state
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.restarthread
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.finishrestore
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.should_ckpt_fd
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.remap_nscd_areas
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.checkpointeverything
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.checkpointhread
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_restore_start
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.extab.text.mtcp_readfile_dummy
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.extab.text.mtcp_getenv
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.extab.text.mtcp_abort
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.extab.text.skipfile
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.extab.text.highest_userspace_address
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+ .ARM.extab.text.mtcp_maybebpt
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .ARM.extab.text.rwrite
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_strlen
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_strncpy
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_strncat
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_strncmp
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_strcmp
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_strstr
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_strstartswith
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_strendswith
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_memcmp
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .text.mtcp_memset
+                0x00000000       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_memset
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_atoi
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_selfmap_close
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_selfmap_open
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_is_executable
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_find_executable
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_read_all
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_write_all
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_readchar
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_readhex
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_readdec
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_selfmap_readline
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_get_memory_region_of_this_library
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_abort
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_readfile
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_readcs
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_writefile
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.extab.text.mtcp_writecs
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safemmap.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safemmap.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safemmap.o
+ .text.mtcp_safemmap
+                0x00000000       0xa4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safemmap.o
+ .ARM.extab.text.mtcp_safemmap
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safemmap.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safemmap.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safe_open.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safe_open.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safe_open.o
+ .ARM.extab.text.mtcp_safe_open
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safe_open.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safe_open.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .ARM.extab.text.mtcp_state_init
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .text.mtcp_state_destroy
+                0x00000000        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .ARM.extab.text.mtcp_state_destroy
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .ARM.extab.text.mtcp_state_value
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .ARM.extab.text.mtcp_state_set
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .ARM.extab.text.mtcp_state_futex
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.extab.text.mtcp_get_thread_sysinfo
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.extab.text.mtcp_set_thread_sysinfo
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.extab.text.mtcp_abort
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.extab.text.mtcp_have_thread_sysinfo_offset
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_sigaction.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_sigaction.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_sigaction.o
+ .ARM.extab.text.mtcp_sigaction
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_sigaction.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_sigaction.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_fastckpt.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_fastckpt.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_fastckpt.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_fastckpt.o
+ .text          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/bionic_pthread_r.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/bionic_pthread_r.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/bionic_pthread_r.o
+ .ARM.extab.text.__thread_entry_r
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/bionic_pthread_r.o
+ .note.GNU-stack
+                0x00000000        0x0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/bionic_pthread_r.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/lib/crtbegin_so.o
+ .data          0x00000000        0x0 prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/../lib/gcc/arm-linux-androideabi/4.4.3/armv7-a/libgcc.a(linux-atomic.o)
+ .bss           0x00000000        0x0 prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/../lib/gcc/arm-linux-androideabi/4.4.3/armv7-a/libgcc.a(linux-atomic.o)
+ .ARM.extab     0x00000000        0x0 prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/../lib/gcc/arm-linux-androideabi/4.4.3/armv7-a/libgcc.a(linux-atomic.o)
+ .note.GNU-stack
+                0x00000000        0x0 prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/../lib/gcc/arm-linux-androideabi/4.4.3/armv7-a/libgcc.a(linux-atomic.o)
+ .text          0x00000000        0x0 out/target/product/maguro/obj/lib/crtend_so.o
+ .data          0x00000000        0x0 out/target/product/maguro/obj/lib/crtend_so.o
+ .bss           0x00000000        0x0 out/target/product/maguro/obj/lib/crtend_so.o
+
+Memory map
+
+ ** file header
+                0x00000000       0x34
+ ** segment headers
+                0x00000034       0xc0
+
+.hash           0x000000f4      0x44c
+ ** hash        0x000000f4      0x44c
+
+.dynsym         0x00000540      0x8e0
+ ** dynsym      0x00000540      0x8e0
+
+.dynstr         0x00000e20      0x731
+ ** string table
+                0x00000e20      0x731
+
+.rel.plt        0x00001554      0x240
+ ** dynamic relocs
+                0x00001554      0x240
+
+.rel.dyn        0x00001794       0xd0
+ ** dynamic relocs
+                0x00001794       0xd0
+
+.plt            0x00001864      0x374
+ ** PLT         0x00001864      0x374
+
+.text           0x00001be0     0xaacc
+ .text          0x00001be0       0x40 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/clone-arm.o
+                0x00001be0                __pthread_clone_r
+ .text          0x00001c20       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/libc-do-syscall-arm-eabi.o
+                0x00001c20                __libc_do_syscall
+ .text          0x00001c30       0x1c out/target/product/maguro/obj/lib/crtbegin_so.o
+ .text          0x00001c4c      0xe78 prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/../lib/gcc/arm-linux-androideabi/4.4.3/armv7-a/libgcc.a(linux-atomic.o)
+                0x00001c4c                __sync_fetch_and_add_4
+                0x00001c84                __sync_fetch_and_sub_4
+                0x00001cbc                __sync_fetch_and_or_4
+                0x00001cf4                __sync_fetch_and_and_4
+                0x00001d2c                __sync_fetch_and_xor_4
+                0x00001d64                __sync_fetch_and_nand_4
+                0x00001d9c                __sync_fetch_and_add_2
+                0x00001df8                __sync_fetch_and_sub_2
+                0x00001e54                __sync_fetch_and_or_2
+                0x00001eb0                __sync_fetch_and_and_2
+                0x00001f0c                __sync_fetch_and_xor_2
+                0x00001f68                __sync_fetch_and_nand_2
+                0x00001fc4                __sync_fetch_and_add_1
+                0x00002020                __sync_fetch_and_sub_1
+                0x0000207c                __sync_fetch_and_or_1
+                0x000020d8                __sync_fetch_and_and_1
+                0x00002134                __sync_fetch_and_xor_1
+                0x00002190                __sync_fetch_and_nand_1
+                0x000021ec                __sync_add_and_fetch_4
+                0x00002224                __sync_sub_and_fetch_4
+                0x0000225c                __sync_or_and_fetch_4
+                0x00002294                __sync_and_and_fetch_4
+                0x000022cc                __sync_xor_and_fetch_4
+                0x00002304                __sync_nand_and_fetch_4
+                0x0000233c                __sync_add_and_fetch_2
+                0x000023a0                __sync_sub_and_fetch_2
+                0x00002404                __sync_or_and_fetch_2
+                0x00002468                __sync_and_and_fetch_2
+                0x000024cc                __sync_xor_and_fetch_2
+                0x00002530                __sync_nand_and_fetch_2
+                0x00002594                __sync_add_and_fetch_1
+                0x000025f8                __sync_sub_and_fetch_1
+                0x0000265c                __sync_or_and_fetch_1
+                0x000026c0                __sync_and_and_fetch_1
+                0x00002724                __sync_xor_and_fetch_1
+                0x00002788                __sync_nand_and_fetch_1
+                0x000027ec                __sync_val_compare_and_swap_4
+                0x00002830                __sync_val_compare_and_swap_2
+                0x00002898                __sync_val_compare_and_swap_1
+                0x00002900                __sync_bool_compare_and_swap_4
+                0x0000292c                __sync_bool_compare_and_swap_2
+                0x0000294c                __sync_bool_compare_and_swap_1
+                0x00002968                __sync_synchronize
+                0x0000297c                __sync_lock_test_and_set_4
+                0x000029b4                __sync_lock_test_and_set_2
+                0x00002a0c                __sync_lock_test_and_set_1
+                0x00002a64                __sync_lock_release_4
+                0x00002a84                __sync_lock_release_2
+                0x00002aa4                __sync_lock_release_1
+ .text.makedev  0x00002ac4       0x20 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.sigismember
+                0x00002ae4       0x2c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.sigdelset
+                0x00002b10       0x38 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_sys_strlen
+                0x00002b48       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_sys_strcpy
+                0x00002b5c       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.sigandset
+                0x00002b78        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcpHookPreCheckpoint
+                0x00002b84        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00002b85                mtcpHookPreCheckpoint
+ .text.mtcp_init_dmtcp_info
+                0x00002b88       0x80 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00002b89                mtcp_init_dmtcp_info
+ .text.mtcp_set_callbacks
+                0x00002c08       0x40 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00002c09                mtcp_set_callbacks
+ .text.mtcp_set_dmtcp_callbacks
+                0x00002c48       0x30 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00002c49                mtcp_set_dmtcp_callbacks
+ .text.mtcp_fill_in_pthread_id
+                0x00002c78       0x20 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00002c79                mtcp_fill_in_pthread_id
+ .text.mtcp_safe_malloc
+                0x00002c98       0x20 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_safe_free
+                0x00002cb8       0x20 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_is_zero_page
+                0x00002cd8       0x8c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_get_next_page_range
+                0x00002d64       0x58 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_abort
+                0x00002dbc       0x48 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_readmapsline
+                0x00002e04      0x450 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00002e05                mtcp_readmapsline
+ ** fill        0x00003254        0x4
+ .text.growstack
+                0x00003258       0xf8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.growstackrlimit
+                0x00003350       0x6c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.is_thread_locked
+                0x000033bc       0x40 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_put_thread_on_freelist
+                0x000033fc       0xa0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.restore_heap
+                0x0000349c       0xd4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.restore_tls_state
+                0x00003570       0x74 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.lock_threads
+                0x000035e4       0xa0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.unlk_threads
+                0x00003684       0xd8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_kill_ckpthread
+                0x0000375c       0x9c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x0000375d                mtcp_kill_ckpthread
+ .text.getcurrenthread
+                0x000037f8       0x94 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_threadiszombie
+                0x0000388c        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x0000388d                mtcp_threadiszombie
+ .text.set_tid_address
+                0x00003898       0x70 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_get_thread_from_freelist
+                0x00003908       0x74 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_empty_threads_freelist
+                0x0000397c       0x28 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.sigfillset
+                0x000039a4       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.save_sig_state
+                0x000039b4       0xec out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.save_tls_state
+                0x00003aa0       0x88 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.wait_for_all_restored
+                0x00003b28      0x204 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.renametempoverperm
+                0x00003d2c       0x74 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.stopthisthread
+                0x00003da0      0x5d0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_no  0x00004370       0x70 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00004371                mtcp_no
+ .text.mtcp_ok  0x000043e0       0x68 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x000043e1                mtcp_ok
+ .text.mtcp_get_libc_symbol
+                0x00004448       0x78 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00004449                mtcp_get_libc_symbol
+ .text.threadisdead
+                0x000044c0      0x1c4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_thread_return
+                0x00004684       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00004685                mtcp_thread_return
+ .text.mtcp_remove_duplicate_thread_descriptors
+                0x000046a0      0x150 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.setupthread
+                0x000047f0       0xa0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_thread_start
+                0x00004890       0x74 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00004891                mtcp_thread_start
+ .text.threadcloned
+                0x00004904       0x8c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_process_pthread_join
+                0x00004990       0x34 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00004991                mtcp_process_pthread_join
+ .text.test_and_prepare_for_forked_ckpt
+                0x000049c4      0x1a8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.setup_clone_entry
+                0x00004b6c      0x264 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_prepare_for_clone
+                0x00004dd0      0x140 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00004dd1                mtcp_prepare_for_clone
+ .text.__pthread_clone
+                0x00004f10      0x138 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00004f11                __pthread_clone
+ .text.update_checkpoint_filename
+                0x00005048       0xd0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.setup_sig_handler
+                0x00005118       0xd0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_init
+                0x000051e8      0x4b0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x000051e9                mtcp_init
+ .text.save_sig_handlers
+                0x00005698      0x12c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.restore_sig_handlers
+                0x000057c4       0xc4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.sync_shared_mem
+                0x00005888      0x184 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.tcgetattr
+                0x00005a0c       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.save_term_settings
+                0x00005a1c       0x4c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.tcsetattr
+                0x00005a68        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.perform_callback_write_ckpt_header
+                0x00005a70      0x194 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.test_use_compression
+                0x00005c04      0x138 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.open_ckpt_to_write
+                0x00005d3c      0x204 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.open_ckpt_to_write_gz
+                0x00005f40       0x5c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.perform_open_ckpt_image_fd
+                0x00005f9c      0x164 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_write_non_rwx_pages
+                0x00006100      0x1ec out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.safe_tcsetattr
+                0x000062ec       0x84 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.restore_term_settings
+                0x00006370      0x150 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.writememoryarea
+                0x000064c0      0x584 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.restore_sig_state
+                0x00006a44       0xd8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.restarthread
+                0x00006b1c      0x334 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.finishrestore
+                0x00006e50      0x11c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.preprocess_special_segments
+                0x00006f6c      0x164 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.should_ckpt_fd
+                0x000070d0       0x38 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.writefiledescrs
+                0x00007108      0x3e0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.remap_nscd_areas
+                0x000074e8      0x12c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.write_ckpt_to_file
+                0x00007614      0x6f8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.checkpointeverything
+                0x00007d0c      0x2fc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.checkpointhread
+                0x00008008      0x99c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_restore_start
+                0x000089a4      0x2a0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .text.mtcp_readfile_dummy
+                0x00008c44       0x34 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+                0x00008c45                mtcp_readfile_dummy
+ .text.mtcp_getenv
+                0x00008c78       0x84 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+                0x00008c79                mtcp_getenv
+ .text.mtcp_abort
+                0x00008cfc       0x48 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .text.skipfile
+                0x00008d44       0xe0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .text.highest_userspace_address
+                0x00008e24      0x1b4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .text.mtcp_restoreverything
+                0x00008fd8     0x19d8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+                0x00008fd9                mtcp_restoreverything
+ .text.mtcp_maybebpt
+                0x0000a9b0      0x18c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+                0x0000a9b1                mtcp_maybebpt
+ .text.rwrite   0x0000ab3c       0x3c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .text.mtcp_printf
+                0x0000ab78      0x3b4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+                0x0000ab79                mtcp_printf
+ .text.mtcp_strlen
+                0x0000af2c       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000af2d                mtcp_strlen
+ .text.mtcp_strncpy
+                0x0000af44       0x24 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000af45                mtcp_strncpy
+ .text.mtcp_strncat
+                0x0000af68       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000af69                mtcp_strncat
+ .text.mtcp_strncmp
+                0x0000af84       0x48 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000af85                mtcp_strncmp
+ .text.mtcp_strcmp
+                0x0000afcc       0x58 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000afcd                mtcp_strcmp
+ .text.mtcp_strstr
+                0x0000b024       0x40 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b025                mtcp_strstr
+ .text.mtcp_strstartswith
+                0x0000b064       0x50 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b065                mtcp_strstartswith
+ .text.mtcp_strendswith
+                0x0000b0b4       0x40 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b0b5                mtcp_strendswith
+ .text.mtcp_memcmp
+                0x0000b0f4       0x2c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b0f5                mtcp_memcmp
+ .text.mtcp_atoi
+                0x0000b120       0x34 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b121                mtcp_atoi
+ .text.mtcp_selfmap_close
+                0x0000b154       0x20 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b155                mtcp_selfmap_close
+ .text.mtcp_selfmap_open
+                0x0000b174       0x2c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b175                mtcp_selfmap_open
+ .text.mtcp_is_executable
+                0x0000b1a0       0x28 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b1a1                mtcp_is_executable
+ .text.mtcp_find_executable
+                0x0000b1c8       0xb4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b1c9                mtcp_find_executable
+ .text.mtcp_read_all
+                0x0000b27c       0x70 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b27d                mtcp_read_all
+ .text.mtcp_write_all
+                0x0000b2ec       0x68 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b2ed                mtcp_write_all
+ .text.mtcp_readchar
+                0x0000b354       0x4c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b355                mtcp_readchar
+ .text.mtcp_readhex
+                0x0000b3a0       0x48 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b3a1                mtcp_readhex
+ .text.mtcp_readdec
+                0x0000b3e8       0x28 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b3e9                mtcp_readdec
+ .text.mtcp_selfmap_readline
+                0x0000b410       0x8c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b411                mtcp_selfmap_readline
+ .text.mtcp_get_memory_region_of_this_library
+                0x0000b49c      0x254 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b49d                mtcp_get_memory_region_of_this_library
+ .text.mtcp_abort
+                0x0000b6f0       0x48 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .text.mtcp_readfile
+                0x0000b738      0x124 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b739                mtcp_readfile
+ .text.mtcp_readcs
+                0x0000b85c       0x60 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b85d                mtcp_readcs
+ .text.mtcp_writefile
+                0x0000b8bc       0xfc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b8bd                mtcp_writefile
+ .text.mtcp_writecs
+                0x0000b9b8       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+                0x0000b9b9                mtcp_writecs
+ .text.mtcp_safe_open
+                0x0000b9d0       0x74 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safe_open.o
+                0x0000b9d1                mtcp_safe_open
+ .text.mtcp_state_init
+                0x0000ba44        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+                0x0000ba45                mtcp_state_init
+ .text.mtcp_state_value
+                0x0000ba48        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+                0x0000ba49                mtcp_state_value
+ .text.mtcp_state_set
+                0x0000ba4c       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+                0x0000ba4d                mtcp_state_set
+ .text.mtcp_state_futex
+                0x0000ba5c       0xf4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+                0x0000ba5d                mtcp_state_futex
+ .text.mtcp_get_thread_sysinfo
+                0x0000bb50        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+                0x0000bb51                mtcp_get_thread_sysinfo
+ .text.mtcp_set_thread_sysinfo
+                0x0000bb58       0x20 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+                0x0000bb59                mtcp_set_thread_sysinfo
+ .text.mtcp_abort
+                0x0000bb78       0x48 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .text.mtcp_have_thread_sysinfo_offset
+                0x0000bbc0      0x1f0 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+                0x0000bbc1                mtcp_have_thread_sysinfo_offset
+ .text.write_args.clone.0
+                0x0000bdb0      0x114 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .text.mtcp_check_vdso_enabled
+                0x0000bec4      0x6d4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+                0x0000bec5                mtcp_check_vdso_enabled
+ .text.mtcp_sigaction
+                0x0000c598       0xec out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_sigaction.o
+                0x0000c599                mtcp_sigaction
+ .text.__thread_entry_r
+                0xffffffffffffffff       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/bionic_pthread_r.o
+                0x0000c685                __thread_entry_r
+
+.rodata         0x0000c6ac     0x393c
+ .rodata        0x0000c6ac      0x200 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5814
+                0x0000c8ac       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8064
+                0x0000c8c8       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5774
+                0x0000c8e0       0x2c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.timeout.6130
+                0x0000c90c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.7312
+                0x0000c914       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6678
+                0x0000c930       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8522
+                0x0000c94c       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5896
+                0x0000c95c       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8721
+                0x0000c974       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5370
+                0x0000c984        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.7944
+                0x0000c990       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8205
+                0x0000c9a8       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8031
+                0x0000c9b8       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.7633
+                0x0000c9cc       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.7982
+                0x0000c9e8       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5825
+                0x0000c9f8       0x20 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6641
+                0x0000ca18       0x24 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5694
+                0x0000ca3c        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6806
+                0x0000ca48       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6337
+                0x0000ca5c       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8266
+                0x0000ca78       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.enabletimeout.6067
+                0x0000ca8c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5558
+                0x0000ca94       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8004
+                0x0000caac       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6027
+                0x0000cac0       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5590
+                0x0000cad8       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6840
+                0x0000cae8       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8424
+                0x0000cafc       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6068
+                0x0000cb10       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5651
+                0x0000cb20       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5666
+                0x0000cb30       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.7096
+                0x0000cb40       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.str1.4
+                0x0000cb50     0x1e78 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8691
+                0x0000e9c8       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8087
+                0x0000e9dc       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8574
+                0x0000e9ec       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5855
+                0x0000e9fc       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6407
+                0x0000ea0c       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.7393
+                0x0000ea20       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6391
+                0x0000ea30       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5635
+                0x0000ea48       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6546
+                0x0000ea5c       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8477
+                0x0000ea74       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5717
+                0x0000ea84       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8178
+                0x0000ea98       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8137
+                0x0000eaa8       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6731
+                0x0000eabc       0x24 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.8160
+                0x0000eae0       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.6358
+                0x0000eaf0       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5950
+                0x0000eb08       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.4758
+                0x0000eb1c        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.7761
+                0x0000eb28       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .rodata.__FUNCTION__.5351
+                0x0000eb38       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.__FUNCTION__.4937
+                0x0000eb4c       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.__FUNCTION__.4577
+                0x0000eb5c       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.__FUNCTION__.4334
+                0x0000eb74        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.__FUNCTION__.4814
+                0x0000eb80       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.str1.4
+                0x0000eb90      0xc0c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.__FUNCTION__.5207
+                0x0000f79c       0x20 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.__FUNCTION__.5713
+                0x0000f7bc        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.__FUNCTION__.5769
+                0x0000f7c8       0x1c out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.__FUNCTION__.5379
+                0x0000f7e4       0x24 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .rodata.str1.4
+                0x0000f808       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+ .rodata.str1.4
+                0x0000f820       0x48 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .rodata.__FUNCTION__.4138
+                0x0000f868        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .rodata.hexdigits
+                0x0000f874       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .rodata.__FUNCTION__.4626
+                0x0000f888        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .rodata.__FUNCTION__.4596
+                0x0000f894       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .rodata.__FUNCTION__.4927
+                0x0000f8a4       0x28 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .rodata.str1.4
+                0x0000f8cc      0x1a4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .rodata.__FUNCTION__.4548
+                0x0000fa70       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .rodata.__FUNCTION__.4117
+                0x0000fa80        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .rodata.str1.4
+                0x0000fa8c       0xb8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .rodata.__FUNCTION__.4335
+                0x0000fb44       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .rodata.__FUNCTION__.4117
+                0x0000fb58        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .rodata.__FUNCTION__.4796
+                0x0000fb64       0x18 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .rodata.__FUNCTION__.4736
+                0x0000fb7c       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .rodata.__FUNCTION__.4544
+                0x0000fb8c       0x10 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .rodata.str1.4
+                0x0000fb9c      0x420 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .rodata.__FUNCTION__.4673
+                0x0000ffbc        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .rodata.__FUNCTION__.4343
+                0x0000ffc8        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .rodata.__FUNCTION__.5067
+                0x0000ffd4       0x14 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+
+.ARM.extab      0x0000ffe8       0x84
+ .ARM.extab.text.sync_shared_mem
+                0x0000ffe8        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.perform_callback_write_ckpt_header
+                0x0000fff4        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.perform_open_ckpt_image_fd
+                0x00010000        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_write_non_rwx_pages
+                0x0001000c        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.preprocess_special_segments
+                0x00010018        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.writefiledescrs
+                0x00010024        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.write_ckpt_to_file
+                0x00010030        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.extab.text.mtcp_restoreverything
+                0x0001003c        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.extab.text.mtcp_printf
+                0x00010048        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .ARM.extab.text.write_args.clone.0
+                0x00010054        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.extab.text.mtcp_check_vdso_enabled
+                0x00010060        0xc out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+
+.ARM.exidx      0x0001006c      0x3d0
+ ** ARM cantunwind
+                0x0001006c        0x8
+ ** ARM cantunwind
+                0x00010074        0x8
+ .ARM.exidx     0x0001007c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/clone-arm.o
+ .ARM.exidx     0x00010084        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/libc-do-syscall-arm-eabi.o
+ .ARM.exidx     0xffffffffffffffff      0x188 prebuilt/linux-x86/toolchain/arm-linux-androideabi-4.4.x/bin/../lib/gcc/arm-linux-androideabi/4.4.3/armv7-a/libgcc.a(linux-atomic.o)
+ .ARM.exidx.text.makedev
+                0x000100dc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.sigdelset
+                0x000100e4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_sys_strlen
+                0x000100ec        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_init_dmtcp_info
+                0x000100f4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_set_callbacks
+                0x000100fc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_fill_in_pthread_id
+                0x00010104        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_safe_malloc
+                0x0001010c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_is_zero_page
+                0x00010114        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_get_next_page_range
+                0x0001011c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_abort
+                0x00010124        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_readmapsline
+                0x0001012c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.growstack
+                0x00010134        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.growstackrlimit
+                0x0001013c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.is_thread_locked
+                0x00010144        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_put_thread_on_freelist
+                0x0001014c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.restore_heap
+                0x00010154        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.restore_tls_state
+                0x0001015c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.lock_threads
+                0x00010164        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.getcurrenthread
+                0x0001016c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_threadiszombie
+                0x00010174        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.set_tid_address
+                0x0001017c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_get_thread_from_freelist
+                0x00010184        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_empty_threads_freelist
+                0x0001018c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.save_sig_state
+                0x00010194        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.save_tls_state
+                0x0001019c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.wait_for_all_restored
+                0x000101a4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.renametempoverperm
+                0x000101ac        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.stopthisthread
+                0x000101b4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_no
+                0x000101bc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_get_libc_symbol
+                0x000101c4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.threadisdead
+                0x000101cc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_thread_return
+                0x000101d4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_remove_duplicate_thread_descriptors
+                0x000101dc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.setupthread
+                0x000101e4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.threadcloned
+                0x000101ec        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_process_pthread_join
+                0x000101f4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.test_and_prepare_for_forked_ckpt
+                0x000101fc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.setup_clone_entry
+                0x00010204        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_prepare_for_clone
+                0x0001020c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.__pthread_clone
+                0x00010214        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.update_checkpoint_filename
+                0x0001021c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.setup_sig_handler
+                0x00010224        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_init
+                0x0001022c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.save_sig_handlers
+                0x00010234        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.restore_sig_handlers
+                0x0001023c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.sync_shared_mem
+                0x00010244        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.tcgetattr
+                0x0001024c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.perform_callback_write_ckpt_header
+                0x00010254        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.test_use_compression
+                0x0001025c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.open_ckpt_to_write
+                0x00010264        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.open_ckpt_to_write_gz
+                0x0001026c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.perform_open_ckpt_image_fd
+                0x00010274        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_write_non_rwx_pages
+                0x0001027c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.safe_tcsetattr
+                0x00010284        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.restore_term_settings
+                0x0001028c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.writememoryarea
+                0x00010294        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.restore_sig_state
+                0x0001029c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.restarthread
+                0x000102a4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.finishrestore
+                0x000102ac        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.preprocess_special_segments
+                0x000102b4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.should_ckpt_fd
+                0x000102bc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.writefiledescrs
+                0x000102c4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.remap_nscd_areas
+                0x000102cc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.write_ckpt_to_file
+                0x000102d4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.checkpointeverything
+                0x000102dc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.checkpointhread
+                0x000102e4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_restore_start
+                0x000102ec        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .ARM.exidx.text.mtcp_readfile_dummy
+                0x000102f4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.exidx.text.mtcp_getenv
+                0x000102fc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.exidx.text.mtcp_abort
+                0x00010304        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.exidx.text.skipfile
+                0x0001030c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.exidx.text.highest_userspace_address
+                0x00010314        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.exidx.text.mtcp_restoreverything
+                0x0001031c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .ARM.exidx.text.mtcp_maybebpt
+                0x00010324        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+ .ARM.exidx.text.rwrite
+                0x0001032c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .ARM.exidx.text.mtcp_printf
+                0x00010334        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .ARM.exidx.text.mtcp_strlen
+                0x0001033c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_strncpy
+                0x00010344        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_strncat
+                0x0001034c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_strncmp
+                0x00010354        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_strstr
+                0x0001035c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_strstartswith
+                0x00010364        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_strendswith
+                0x0001036c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_memcmp
+                0x00010374        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_atoi
+                0x0001037c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_selfmap_close
+                0x00010384        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_find_executable
+                0x0001038c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_read_all
+                0x00010394        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_readchar
+                0x0001039c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_readhex
+                0x000103a4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_get_memory_region_of_this_library
+                0x000103ac        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_abort
+                0x000103b4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_readfile
+                0x000103bc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_readcs
+                0x000103c4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_writefile
+                0x000103cc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_writecs
+                0x000103d4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .ARM.exidx.text.mtcp_safe_open
+                0x000103dc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_safe_open.o
+ .ARM.exidx.text.mtcp_state_init
+                0x000103e4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .ARM.exidx.text.mtcp_state_set
+                0x000103ec        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .ARM.exidx.text.mtcp_state_futex
+                0x000103f4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_state.o
+ .ARM.exidx.text.mtcp_get_thread_sysinfo
+                0x000103fc        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.exidx.text.mtcp_set_thread_sysinfo
+                0x00010404        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.exidx.text.mtcp_abort
+                0x0001040c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.exidx.text.mtcp_have_thread_sysinfo_offset
+                0x00010414        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.exidx.text.write_args.clone.0
+                0x0001041c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.exidx.text.mtcp_check_vdso_enabled
+                0x00010424        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .ARM.exidx.text.mtcp_sigaction
+                0x0001042c        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_sigaction.o
+ .ARM.exidx.text.__thread_entry_r
+                0x00010434        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/bionic_pthread_r.o
+
+.init_array     0x00011000        0x8
+ .init_array    0x00011000        0x4 out/target/product/maguro/obj/lib/crtbegin_so.o
+                0x00011000                __INIT_ARRAY__
+ .init_array    0x00011004        0x4 out/target/product/maguro/obj/lib/crtend_so.o
+
+.fini_array     0x00011008        0xc
+ .fini_array    0x00011008        0x8 out/target/product/maguro/obj/lib/crtbegin_so.o
+                0x00011008                __FINI_ARRAY__
+ .fini_array    0x00011010        0x4 out/target/product/maguro/obj/lib/crtend_so.o
+
+.data.rel.ro    0x00011014       0x20
+ .data.rel.ro.local.nscd_mmap_str2
+                0x00011014        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.rel.ro.local.nscd_mmap_str3
+                0x00011018        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.rel.ro.local.nscd_mmap_str1
+                0x0001101c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.rel.ro.local.dev_zero_deleted_str
+                0x00011020        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.rel.ro.local.dev_null_deleted_str
+                0x00011024        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.rel.ro.local.frpointer.6836
+                0x00011028        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.rel.ro.local.sys_v_shmem_file
+                0x0001102c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.rel.ro.local.infiniband_shmem_file
+                0x00011030        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+
+.dynamic        0x00011034       0xb8
+ ** dynamic     0x00011034       0xb8
+
+.got            0x000110ec      0x170
+ ** GOT         0x000110ec       0x44
+ ** GOT PLT     0x00011130      0x12c
+
+.data           0x0001125c       0x28
+ .data.dmtcp_info_restore_working_directory
+                0x0001125c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x0001125c                dmtcp_info_restore_working_directory
+ .data.mtcp_ckpt_extcomp_child_pid
+                0x00011260        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.is_first_checkpoint.7768
+                0x00011264        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.originalstartup.6066
+                0x00011268        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.threads_lock_owner
+                0x0001126c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .data.mtcp_restore_gzip_child_pid
+                0x00011270        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+                0x00011270                mtcp_restore_gzip_child_pid
+ .data.mtcp_restore_cpfd
+                0x00011274        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+                0x00011274                mtcp_restore_cpfd
+ .data.known.4352
+                0x00011278        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_maybebpt.o
+ .data.dmtcp_info_jassertlog_fd
+                0x0001127c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+                0x0001127c                dmtcp_info_jassertlog_fd
+ .data.dmtcp_info_stderr_fd
+                0x00011280        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+                0x00011280                dmtcp_info_stderr_fd
+
+.bss            0x00011290     0xd1ec
+ ** common      0x00011290     0x25cc
+ .bss           0x00013860       0x10 out/target/product/maguro/obj/lib/crtbegin_so.o
+                0x00013860                __dso_handle
+ .bss.growstackValue
+                0x00013870        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_pre_suspend_user_thread
+                0x00013874        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.restore_start
+                0x00013878        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.myinfo_gs
+                0x0001387c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.ckptThreadStorage
+                0x00013880      0x174 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.sigactions
+                0x000139f4      0x200 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.verify_total
+                0x00013bf4        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.mtcp_libc_dl_handle
+                0x00013bf8        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00013bf8                mtcp_libc_dl_handle
+ .bss.motherofall
+                0x00013bfc        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.sigpending_global
+                0x00013c00        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.threadenabledefault
+                0x00013c04        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.orig_stack_ptr.7769
+                0x00013c08        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.restore_size
+                0x00013c0c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_ckpt_fd
+                0x00013c10        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.free_entry
+                0x00013c14        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.orig_stack.7392
+                0x00013c18        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.restore_begin
+                0x00013c1c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.ckpthread
+                0x00013c20        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_holds_any_locks
+                0x00013c24        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.sys_clone_entry
+                0x00013c28        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.STOPSIGNAL
+                0x00013c2c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.restore_end
+                0x00013c30        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.checkpointhreadid
+                0x00013c34        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.showtiming
+                0x00013c38        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.clone_entry
+                0x00013c3c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_pre_ckpt
+                0x00013c40        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.intervalsecs
+                0x00013c44        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_pre_resume_user_thread
+                0x00013c48        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.verify_count
+                0x00013c4c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.threads_freelist
+                0x00013c50        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_restore_virtual_pid_table
+                0x00013c54        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.checkpointhreadstarting
+                0x00013c58        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.motherpid
+                0x00013c5c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_sleep_between_ckpt
+                0x00013c60        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.mtcp_restore_argv_start_addr
+                0x00013c64        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00013c64                mtcp_restore_argv_start_addr
+ .bss.malloc_entry
+                0x00013c68        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.tempstack
+                0x00013c70     0x4008 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.saved_termios
+                0x00017c78       0x24 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_write_ckpt_header
+                0x00017c9c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.dmtcp_exists
+                0x00017ca0        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x00017ca0                dmtcp_exists
+ .bss.STRINGS   0x00017ca4     0x2710 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.DEBUG_RESTARTING
+                0x0001a3b4        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.saved_termios_exists
+                0x0001a3b8        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.pgid      0x0001a3bc        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.saved_sysinfo
+                0x0001a3c0        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.restorestarted
+                0x0001a3c4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.sem_start
+                0x0001a3cc        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.saved_heap_start
+                0x0001a3d0        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.win       0x0001a3d4        0x8 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.temp_checkpointfilename
+                0x0001a3dc     0x1000 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.threads   0x0001b3dc        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.checkpointsize
+                0x0001b3e0        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.restoreinprog
+                0x0001b3e4        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.dmtcp_info_pid_virtualization_enabled
+                0x0001b3e8        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+                0x0001b3e8                dmtcp_info_pid_virtualization_enabled
+ .bss.perm_checkpointfilename
+                0x0001b3ec     0x1000 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.threadslocked
+                0x0001c3ec        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.callback_post_ckpt
+                0x0001c3f0        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp.o
+ .bss.mtcp_saved_break
+                0x0001c3f4        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+                0x0001c3f4                mtcp_saved_break
+ .bss.mtcp_restore_verify
+                0x0001c3f8        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+                0x0001c3f8                mtcp_restore_verify
+ .bss.global_vdso_addr
+                0x0001c3fc        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_restart_nolibc.o
+ .bss.mtcp_saved_pid
+                0x0001c400        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+                0x0001c400                mtcp_saved_pid
+ .bss.printflocked
+                0x0001c404        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_printf.o
+ .bss.dummy     0x0001c408        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .bss.zeroes.4533
+                0x0001c40c     0x1000 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_util.o
+ .bss.result.4626
+                0x0001d40c        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .bss.buf.5065  0x0001d410       0x40 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .bss.newEnvInitialized
+                0x0001d450        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .bss.oldpers_str.4764
+                0x0001d454       0x24 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .bss.newEnv    0x0001d478     0x1000 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o
+ .bss.my_environ.4543
+                0x0001e478        0x4 out/target/product/maguro/obj/SHARED_LIBRARIES/libmtcp_intermediates/mtcp_check_vdso.o

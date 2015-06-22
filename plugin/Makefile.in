@@ -1,0 +1,70 @@
+@SET_MAKE@
+LN_S=@LN_S@ -f
+MKDIR_P=@MKDIR_P@
+CC=@CC@
+M32=@M32@
+PTRACE_SUPPORT=@PTRACE_SUPPORT@
+PACKAGE=@PACKAGE_TARNAME@
+PACKAGE_TARNAME=@PACKAGE_TARNAME@-@PACKAGE_VERSION@
+VERSION=@PACKAGE_VERSION@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+datarootdir=@datarootdir@
+bindir=@bindir@
+libdir=@libdir@
+docdir=@docdir@
+includedir=@includedir@
+mandir=@mandir@
+infodir=@mandir@
+
+ifeq ($(PTRACE_SUPPORT),yes)
+  MTCP_MAKE_FLAGS += PTRACE_SUPPORT=1
+endif
+
+default: build
+
+build: pidvirt ptrace
+
+all: default
+
+ptrace:
+ifeq ($(PTRACE_SUPPORT),yes)
+	cd ptrace && $(MAKE)
+endif
+
+pidvirt:
+	cd pidvirt && $(MAKE)
+
+tidy:
+	rm -rf dmtcp-autotest-* ckpt_*_files
+	rm -f ckpt_*.dmtcp dmtcp_restart_script* \
+	  dmtcp-shared-memory.* dmtcp-test-typescript.tmp core*
+	rm -rf ckpt_*
+
+clean: tidy
+	- cd pidvirt && $(MAKE) clean
+	- cd ptrace && $(MAKE) clean
+
+distclean: clean
+	- cd pidvirt  && $(MAKE) distclean
+	- cd ptrace  && $(MAKE) distclean
+	rm -f Makefile
+
+install: all
+	if test -z "$(prefix)"; then \
+	  echo ERROR: prefix must be defined; \
+	  exit 1; \
+	fi
+	test -e $(DESTDIR)$(bindir) || $(MKDIR_P) $(DESTDIR)$(bindir)
+	test -e $(DESTDIR)$(libdir) || $(MKDIR_P) $(DESTDIR)$(libdir)
+	test -e $(DESTDIR)$(includedir) || $(MKDIR_P) $(DESTDIR)$(includedir)
+	cd pidvirt && make DESTDIR=$(DESTDIR) install
+ifeq ($(PTRACE_SUPPORT),yes)
+	cd ptrace && make DESTDIR=$(DESTDIR) install
+endif
+
+uninstall:
+	cd pidvirt && make DESTDIR=$(DESTDIR) uninstall
+	cd ptrace && make DESTDIR=$(DESTDIR) uninstall
+
+.PHONY: default all build pidvirt ptrace tidy clean distclean install uninstall
